@@ -1,0 +1,146 @@
+#myFooter {
+    background-color: #000000;
+    color: white;
+    padding-top: 10px;
+}
+
+#map-container {
+    height: 200px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+#myFooter .row {
+    margin: 0 35px;
+}
+
+#myFooter .footer-copyright {
+    background-color: #111111;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+}
+
+#myFooter .footer-copyright p {
+    margin: 10px;
+    color: #b0afaf;
+}
+
+#myFooter .container {
+    width: auto;
+}
+
+#myFooter ul {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+    margin-left: 48px;
+    font-size: 15px;
+}
+
+#myFooter h5 {
+    font-size: 27px;
+    color: #fe980f;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-left: 48px;
+}
+
+#myFooter a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#myFooter a:hover,
+#myFooter a:focus {
+    text-decoration: none;
+    color: #fe980f;
+}
+
+#myFooter .social-networks {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+#myFooter .fa {
+    font-size: 25px;
+    font-weight: 500;
+    margin-right: 15px;
+    margin-left: 20px;
+    background-color: black;
+    color: #ffffff;
+    border-radius: 51%;
+    padding: 1px;
+    height: 38px;
+    width: 38px;
+    text-align: center;
+    line-height: 38px;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+#myFooter .fa-facebook:hover {
+    color: #074DF1;
+}
+
+#myFooter .fa-facebook:focus {
+    color: #2b55ff;
+}
+
+#myFooter .fa-instagram:hover {
+    color: #ff00ff;
+}
+
+#myFooter .fa-instagram:focus {
+    color: #2b55ff;
+}
+
+#myFooter .fa-pinterest:hover {
+    color: #ff0000;
+}
+
+#myFooter .fa-pinterest:focus {
+    color: red;
+}
+
+#myFooter .fa-twitter:hover {
+    color: #099fff;
+}
+
+#myFooter .fa-twitter:focus {
+    color: #00aced;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    #myFooter {
+        text-align: center;
+    }
+    #myFooter .row {
+        margin: 0;
+    }
+
+    #myFooter ul {
+        list-style-type: none;
+        padding-left: 0;
+        line-height: 1.7;
+        margin-right: 48px;
+    }
+
+    #myFooter h5 {
+        font-size: 27px;
+        color: #fe980f;
+        font-weight: 500;
+        margin-top: 30px;
+        margin-right: 48px;
+    }
+}
+
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */

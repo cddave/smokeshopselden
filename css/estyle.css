@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Condensed:300,400");
+* {
+  outline-width: 0;
+  font-family:inherit;
+}
+
+#faqWrapper {
+  width: 1130px;
+  margin: 30px auto;
+}
+
+@media only screen and (max-width: 980px) {
+  #faqWrapper {
+    width: 100%;
+  }
+}
+.faq-header img {
+width: 100%;
+height: auto;
+}
+#accordion {
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.accordion-toggle {
+  border-top: 0.5px solid #400d0d;
+  padding: 10px 40px 10px 0;
+  cursor: pointer;
+  position: relative;
+}
+.accordion-toggle p {
+  font-size: 23px;
+  font-family:sans-serif;
+  margin: 0;
+}
+.accordion-toggle span {
+  position: absolute;
+  right: 10px;
+  top: 35%;
+  -webkit-transform: translateY(-50%) rotate(-45deg);
+          transform: translateY(-50%) rotate(-45deg);
+  width: 16px;
+  height: 16px;
+  border-bottom: 1px solid #400d0d;
+  border-left: 1px solid #400d0d;
+}
+
+.accordion-content {
+  display: none;
+  padding: 5px 0 15px;
+}
+.accordion-content p {
+  font-size: 20px;
+  color: #525252;
+  font-family:sans-serif;
+  margin: 0 0 10px;
+}
+.accordion-content p:last-child {
+  margin-bottom: 0;
+}
+.accordion-content p.steps {
+  font-style: italic;
+}
+
+.learn {
+  display: block;
+  font-family:sans-serif;
+  color: #000;
+  font-weight: 400;
+  text-decoration: none;
+  width: 120px;
+  text-align: center;
+  background: #f8f8f8;
+  padding: 10px 0;
+  margin-top: 15px;
+}
